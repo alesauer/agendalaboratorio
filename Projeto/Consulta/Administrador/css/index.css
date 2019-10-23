@@ -1,0 +1,154 @@
+h1 {
+    text-align: center;
+}
+
+body{
+    background-color: #ffffff;
+}
+main{
+    
+    height: 100%;
+}
+
+.titulo-principal {
+    font-size: 35px;
+    text-align: center;
+    font-family: "FOCO","Open Sans Condensed"; 
+    text-transform: uppercase;
+    padding-top: 15px;
+    color:#ffffff;
+} 
+ .logo-techlab {
+    float: right;
+    position:absolute; 
+    bottom: 5px;
+    margin-right: 40px;
+    height: 50px;
+    margin-left: 30px;
+    left: 900px;
+    width: 50px;
+    top:5px;
+
+}
+ .logo-pitagoras {
+	float: left;
+    position:absolute; 
+    bottom: 10px;
+    top: 0px;
+    right: 55px;
+    width: 150px;
+    height: 100px;
+    padding-bottom: 24px;
+    padding-top: 7px;
+}
+.logo-usuario{
+    width: 78px;
+    padding-top: 23px;
+
+}
+ 
+#barra {
+	background-color: rgb(242, 110, 34);
+}
+
+#menu, .ls-submenu-item {
+    background-color: #efeeec;
+    color: rgb(242, 110, 34);
+}
+
+.ls-sidebar .ls-brand-name a {
+    color: rgb(242, 110, 34);
+}
+.ls-theme-gray .ls-menu a, html .ls-menu a {
+    color: rgb(242, 110, 34);
+}
+@media(min-width: 1024px){
+    .titulo-principal{
+        position: absolute;
+        left: 40%;
+
+    }
+}
+@media(max-width: 768px){
+    .titulo-principal{
+        font-size: 25px;
+        padding-top: 7px;
+    }
+}
+@media(max-width: 425px){
+    .titulo-principal{
+        font-size: 26px;
+        padding-top: 7px;
+    }
+}
+@media(max-width: 320px){
+    .titulo-principal{
+        font-size: 25px;
+        padding-top: 8px;
+        text-align: center;
+    }
+}
+@media(max-width: 768px){
+    .ls-title-footer{
+        font-size: 10px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.sub-titulo {
+    font-size: 35px;
+    text-align: center;
+    font-family: "FOCO","Open Sans Condensed"; 
+    padding-top: 40px;
+    color: rgb(242, 110, 34);
+}
+.altmenu{
+
+    height: 40px;
+
+
+}
+
+.altmenu:hover{
+
+    height: 40px;
+    
+}
+
+li a:hover{
+    height: 10px;
+}
+
+
+
+.ls-menu li {
+    list-style: none;
+    border-bottom: 0px solid;
+    padding-bottom: 0px;
+
+}
+
+
+
+.altmenu a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ls-sidebar-inner{
+overflow-y:hidden;
+overflow-x:hidden;
+}
+
+input+.ls-label-text-prefix {
+    left: -31px;
+}
+
+
+.ls-label b, .ls-label label, .ls-label .ls-label-text {
+    font-size: 20px;
+    color:#454545;
+}
+

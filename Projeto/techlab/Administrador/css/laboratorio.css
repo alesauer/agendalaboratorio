@@ -1,0 +1,252 @@
+#pesquisar{
+    margin-right: 10px;
+    width: 355px;
+}
+#filtrar{
+    margin-right: 10px;
+    width: 355px;
+    margin-top: 20px;
+}
+.ls-btn-dark {
+    float: right;
+    margin-right: 5px;
+}
+
+#formulario-01{
+	margin-top: 50px;
+}
+#tipo-insumo{
+
+    margin-left: 10px;
+    width: 290px;
+   
+
+}
+#nome-laboratorio{
+
+    margin-right: 10px;
+    width: 355px;
+
+}
+#quantidade {
+
+    margin-left: 10px;
+    padding-right: 74px;
+
+
+}
+
+#tipo {
+	
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 390px;
+
+}
+
+
+@media(max-width:1024px ){
+    #tipo{
+    width: 250px;
+
+    }
+}
+
+@media(max-width:768px ){
+    #quantidade,#tipo-insumo{
+
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 460px;
+
+    }
+}
+
+@media(max-width:768px ){
+    #tipo{
+    width: 470px;
+
+    }
+}
+@media(min-width:414px ){
+    #quantidade,#tipo-insumo{
+
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 402px;
+
+    }
+}
+@media(max-width:411px ){
+    #nome-laboratorio,#tipo{
+    width: 410px;
+
+    }
+}
+@media(max-width:411px ){
+    #tipo-insumo, #quantidade{
+    width: 395px;
+
+    }
+}
+
+
+@media(max-width:375px ){
+    #quantidade,#tipo-insumo{
+
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 358px;
+
+    }
+}
+@media(max-width:360px ){
+    #quantidade,#tipo-insumo{
+
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 345px;
+
+    }
+}
+@media(max-width:320px){
+	#quantidade,#tipo-insumo{
+
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 345px;
+
+	}
+}
+.ls-ico-pencil {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media(max-width:1024px ){
+   #formulario-01 {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:768px ){
+    #pesquisar{
+        top: 0px;
+        width: 470px;
+    }
+
+}
+@media(min-width:414px ){
+    #pesquisar{
+        top: 20px;
+    }
+    #nome-laboratorio{
+        width: 310px;
+    }
+    #tipo{   
+        width: 280px;
+        left: 15px;
+    }
+    #tipo-insumo {
+        width: 299px;
+    }
+    #quantidade{
+        width: 299px;
+    }
+    #botao-adicionar{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #andar{
+        width: 315px;
+    }
+    #insumo{
+        width: 315px;
+    }
+}
+
+@media(max-width:411px ){
+    #pesquisar{
+        top: 20px;
+    }
+    #nome-laboratorio{
+        width: 310px;
+    }
+    #tipo{   
+        width: 280px;
+        left: 15px;
+    }
+    #tipo-insumo {
+        width: 299px;
+    }
+    #quantidade{
+        width: 299px;
+    }
+    #botao-adicionar{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #andar{
+        width: 315px;
+    }
+    #insumo{
+        width: 315px;
+    }
+}
+
+
+
+@media(max-width:375px ){
+
+}
+@media(max-width:360px ){
+   #pesquisar{
+        top: 20px;
+    }
+    #nome-laboratorio{
+        width: 310px;
+    }
+    #tipo{   
+        width: 280px;
+        left: 15px;
+    }
+    #tipo-insumo {
+        width: 299px;
+    }
+    #quantidade{
+        width: 299px;
+    }
+    #botao-adicionar{
+        margin-left: 20px;
+    }
+
+}
+@media(max-width:320px){
+      #pesquisar{
+        top: 20px;
+    }
+    #nome-laboratorio{
+        width: 280px;
+    }
+    #tipo{   
+        width: 250px;
+        left: 15px;
+    }
+    #tipo-insumo {
+        width: 265px;
+    }
+    #quantidade{
+        width: 265px;
+    }
+    #botao-adicionar{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #andar{
+        width: 280px;
+    }
+    #insumo{
+        width: 280px;
+    }
+}
+

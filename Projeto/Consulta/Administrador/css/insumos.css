@@ -1,0 +1,63 @@
+html,main{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+
+}
+.footer, .push{
+    height: 50px;
+}
+
+#titulo {
+    padding: 5%;
+    font-size: 35px;
+    color: rgb(242, 110, 34);
+    font-family: FOCO;
+    text-align: center;
+}
+
+#botaocadastro {
+    float: right;
+}
+
+.corpo {
+    position: absolute;
+    top: 30%;
+    bottom: 40%;
+    left: 3%;
+}
+
+#insumo {
+    width: 70%;
+}
+
+#titulomodal {
+    text-align: center;
+    font-style: bold;
+}
+
+.ls-modal {
+    left: 15%;
+}
+
+#botoes-editar{
+    float: right;
+    padding: 2%;
+}
+
+#lapis{
+    border: transparent;
+    background-color: transparent;
+}
+
+.ls-table td, .ls-table th{
+    text-align: center;
+}
+
+#pesquisar{
+    
+    width: 370px;
+
+}

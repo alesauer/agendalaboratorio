@@ -1,0 +1,94 @@
+#botao-modal{
+	font-size: 25px;
+    margin-left: 390px;
+    margin-top: 50px;
+
+
+}
+@media(max-width: 1024px){
+    #botao-modal{
+    	margin-left: 230px;
+
+    } 
+    .ls-modal-box{
+        
+      margin-left: 250px;
+    margin-right: 0px;
+    width: 400px;
+
+    }
+
+}
+@media(max-width: 768px){
+    #botao-modal{
+    	margin-left: 110px;
+
+    }
+    .ls-modal-box{
+        
+      margin-left: 250px;
+    margin-right: 0px;
+    width: 400px;
+
+    }
+}
+
+
+@media(max-width: 414px){
+    #botao-modal{
+    	margin-left: 60px;
+
+    }
+    .ls-modal-box{
+        
+    margin-top: 160px;
+
+    }
+}
+
+@media(max-width: 411px){
+    #botao-modal{
+    	margin-left: 70px;
+    
+    }
+    .ls-modal-box{
+        
+    margin-top: 160px;
+
+    }
+}
+
+@media(max-width: 360px){
+    #botao-modal{
+    	margin-left: 45px;
+    } 
+    .ls-modal-box{
+        
+    margin-top: 160px;
+        margin-left: 0px;
+    margin-right:0px;
+        width: 350px;
+
+    }
+}
+
+@media(max-width: 320px){
+    #botao-modal{
+    	margin-left: 20px;
+    }
+    .ls-modal-box{
+        
+    margin-top: 160px;
+
+    }
+}
+
+
+
+.meus-agendamentos{
+	font-size: 25px;
+    text-align: left;
+    font-family: "FOCO","Open Sans Condensed"; 
+    padding-top: 40px;
+    color: rgb(242, 110, 34);
+}

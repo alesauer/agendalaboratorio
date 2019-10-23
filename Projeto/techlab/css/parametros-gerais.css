@@ -1,0 +1,39 @@
+.ls-btn-dark{
+	float: right;
+	margin-right: 8px;
+	margin-top: 20px;
+
+}
+
+.parametros-agendamentos-dia{
+	margin-left: 70px;
+    
+
+} 
+
+.parametros-agendamentos-silmutaneos {
+	margin-left: 20px;
+}
+
+.parametros-agendamentos-silmutaneos, .parametros-agendamentos-dia,
+ .parametros-antecedencia-maxima,.parametros-antecedencia-minima {
+	height: 33px;
+    width: 124px;
+}
+
+.parametros {
+    padding-top: 100px;
+}
+.parametros p {
+    font-size:20px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+@media(max-width: 360px){
+    .parametros-antecedencia-maxima{
+       margin-left: 0px;
+    }
+}

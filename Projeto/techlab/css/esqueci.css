@@ -1,0 +1,15 @@
+#corpo {
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+#botao {
+    background-color: #FF8F33;
+    color: #FFF;
+    font-size: 16px;
+}
+
+#texto {
+    text-align: center;
+    font-size: 16px;
+}

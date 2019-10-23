@@ -1,0 +1,94 @@
+html,main{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+
+}
+.footer, .push{
+    height: 50px;
+}
+.titulo {
+    padding: 5%;
+    font-size: 35px;
+    color: rgb(242, 110, 34);
+    font-family: FOCO;
+}
+
+#botaocadastro {
+    float: right;
+}
+
+#formulario {
+    position: relative;
+    top: 15%;
+   
+}
+
+.ls-modal {
+    left: 15%;
+}
+
+#titulomodal {
+    text-align: center;
+}
+
+/*Botão editar*/
+#lapis{
+    border: transparent;
+    background-color: transparent;
+}
+
+#botoes-edicao {
+    float: right;
+    padding: 2%;
+}
+
+.ls-table td, .ls-table th{
+    text-align: center;
+}
+#formulario-01{
+    margin-top: 40px;
+}
+#pesquisar{
+    
+    width: 370px;
+
+}
+
+
+
+@media only screen and (min-device-width: 1024px) {
+    #formulario{
+        position: absolute;
+        left: 15%;
+        margin-top: 15%;
+    }
+    .corpo {
+        position: absolute;
+        top: 35%;
+        bottom: 65%;
+        left: 3%;
+    }
+ }
+    
+@media(max-width: 768px){
+    #formulario{
+        font-size: 25px;
+        padding-top: 15%;
+    }
+}
+@media(max-width: 425px){
+    #formulario{
+        font-size: 25px;
+        padding-top: 10%;
+    }
+}
+@media(max-width: 320px){
+    #formulario{
+        font-size: 25px;
+        padding-top: 10%;
+    }
+}
+

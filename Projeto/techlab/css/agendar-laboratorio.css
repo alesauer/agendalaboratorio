@@ -1,0 +1,11 @@
+#formulario-01{
+	margin-top: 50px;
+}
+#botao-buscar, #botao-proximo{
+    float: right;
+    margin-right: 10px;
+}
+#botao-selecionar{
+    background-color: transparent;
+    border-color: transparent;
+}

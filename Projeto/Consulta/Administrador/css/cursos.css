@@ -1,0 +1,22 @@
+.ls-btn-dark {
+    float: right;
+    margin-right: 5px;
+}
+#pesquisar{
+    margin-right: 10px;
+    width: 355px;
+    margin-top: 20px;
+}
+#filtrar{
+    margin-right: 10px;
+    width: 355px;
+    margin-top: 20px;
+}
+#formulario-01{
+    margin-top: 40px;
+}
+
+.ls-btn {
+    border-color: transparent;
+    background-color: transparent;
+}

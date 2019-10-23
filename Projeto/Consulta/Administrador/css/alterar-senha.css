@@ -1,0 +1,144 @@
+.ls-btn-dark {
+    float: right;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+#senha {
+    margin-left: 360px;
+    position: relative;
+    bottom: 130px;
+}
+
+.foto-usuario{
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+.nome-usuario{
+    font-size: 25px;
+    font-family: "FOCO","Open Sans Condensed"; 
+    color: rgb(242, 110, 34);
+    margin-left: 87px;
+
+}
+
+@media(max-width: 1024px){
+    .foto-usuario{
+            margin-top: 100px;
+            margin-left: 280px;
+
+    } 
+    .nome-usuario{
+           
+    margin-left: 310px;
+
+
+    }
+    #senha{
+    
+    top: 0px;
+    margin-left: 0px;
+    margin-top: 60px;
+        left: 200px;
+ 
+
+    }
+}
+@media(max-width: 768px){
+    .foto-usuario{
+            margin-top: 100px;
+            margin-left: 150px;
+
+    } 
+    .nome-usuario{
+           
+    margin-left: 190px;
+
+
+    }
+    #senha{
+        
+    margin-left: 0px;
+    bottom: 0px;
+    top: 40px;
+        left: 0;
+ 
+
+    }
+}
+@media(max-width: 414px){
+    .foto-usuario{
+            margin-top: 20px;
+            margin-left: 120px;
+
+    } 
+    .nome-usuario{
+            margin-left: 150px;
+
+    }
+    #senha{
+        margin-left: 20px;
+        bottom: 0px;
+        top: 20px; 
+        left: 0;
+
+    }
+}
+@media(max-width: 411px){
+    .foto-usuario{
+            margin-top: 20px;
+            margin-left: 94px;
+
+    }
+    .nome-usuario{
+            margin-left: 130px;
+
+    }
+    #senha{
+        margin-left: 20px;
+        bottom: 0px;
+        top: 0px;  
+        left: 0;
+
+    }
+}
+@media(max-width: 360px){
+    .foto-usuario{
+            margin-top: 20px;
+            margin-left: 100px;
+
+    } 
+    .nome-usuario{
+            margin-left: 130px;
+
+    }
+    #senha{
+        margin-left: 20px;
+        bottom: 0px;
+        top: 40px; 
+        left: 0;
+        top: 0;
+
+    }
+}
+@media(max-width: 320px){
+    .foto-usuario{
+            margin-top: 20px;
+            margin-left: 70px;
+
+    } 
+    .nome-usuario{
+            margin-left: 100px;
+
+    }
+    #senha{
+        margin-left: 20px;
+        bottom: 0px;
+        top: 0px;  
+
+    }
+}
+

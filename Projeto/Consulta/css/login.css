@@ -1,0 +1,14 @@
+#logo-login{
+    height: 200px;;
+}
+.ls-label-text-prefix{
+    background-image: url(icone-esconder2.png);
+    background-size: cover;
+    background-position: center;
+    width: 43px;
+    
+
+}
+.ls-login-box{
+    border-radius: 20px;
+}
