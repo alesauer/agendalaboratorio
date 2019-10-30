@@ -1,5 +1,5 @@
 <?php
-
+// Imprime o footer
 echo '<footer class="ls-footer" role="contentinfo">
     <nav class="ls-footer-menu">
       <h2 class="ls-title-footer">Desenvolvido por TechLab - Unidade Raja Gabáglia <br>

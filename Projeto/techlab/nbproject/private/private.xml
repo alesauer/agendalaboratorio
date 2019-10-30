@@ -3,7 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/techlab/controller/adicionaCurso.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/controller/logout.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/index.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/controller/controllercurso.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/adminphp/verificausuario.php</file>
             <file>file:/C:/xampp/htdocs/techlab/cursos.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/model/menu.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/controller/editarCurso.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/controller/excluirCurso.php</file>
+            <file>file:/C:/xampp/htdocs/techlab/controller/login.php</file>
         </group>
     </open-files>
 </project-private>

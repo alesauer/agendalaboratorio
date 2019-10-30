@@ -39,6 +39,7 @@ if(mysqli_num_rows($select) == 1){
   $select =  mysqli_query($conexao,$query);
   
   $select = $select->fetch_assoc();
+  $id = base64_encode($id);
   
 
 $Nome		= $select['NOME'];

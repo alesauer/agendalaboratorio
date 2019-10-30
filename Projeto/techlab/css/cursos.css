@@ -20,3 +20,39 @@
     border-color: transparent;
     background-color: transparent;
 }
+
+    
+   .tamanhoLista{
+            width: 300px;
+            overflow:no-content;
+            border: solid 1px;
+            
+    }
+
+@media (min-width: 500px){
+    .tamanhoLista{
+            width: 1000px;
+    }
+    
+    #listaCursos{
+            width: 1000px;
+    }
+   }
+   
+   @media (max-width: 300px){
+    .tamanhoLista{
+            width: 300px;
+                    overflow:auto;
+    }
+    
+    #listaCursos{
+            width: 300px;
+    }
+   }
+   
+
+   .ls-table{
+       
+       
+       margin: 0px;
+   }
