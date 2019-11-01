@@ -4,6 +4,9 @@ require_once ('./adminphp/conecta.php');
 
 // Adiciona o arquivo de controle que ajudará a listar os dados
 require_once ('./controller/controllercurso.php');
+require_once ('./adminphp/verificausuario.php');
+verificaLogin();
+verificaNivel();
 ?>
 <!DOCTYPE html>
 <html class="ls-pre-panel">
@@ -29,7 +32,16 @@ require_once ('./controller/controllercurso.php');
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" href="css/cursos.css">
 
-
+    <script>
+        $(document).ready(function(){
+          $("#busca").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#tabela_curso tr").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+          });
+        });
+</script>
     </head>
     <body class="documentacao documentacao_exemplos documentacao_exemplos_painel1 documentacao_exemplos_painel1_pre-painel documentacao_exemplos_painel1_pre-painel_index">
 
@@ -105,7 +117,7 @@ require_once ('./controller/controllercurso.php');
                     <fieldset>
                         <label class="ls-label col-md-5 col-xs-12" id="pesquisar">
                             <b class="ls-label-text">Pesquisar:</b>
-                            <input type="text" id="busca" placeholder="Informe o que deseja pesquisar" class="ls-field" required>
+                            <input type="text" id="txtBusca" name="txtBusca" placeholder="Informe o que deseja pesquisar" class="ls-field" required>
                         </label>
 
                         <label class="ls-label col-md-4 col-xs-12" id="filtrar">
@@ -131,7 +143,7 @@ require_once ('./controller/controllercurso.php');
                                 <th>Editar</th>
                             </tr>
                         </thead>
-                        <tbody  id="tabela_curso">
+                        <tbody id="tbody">
                             <?php listaCurso(); ?>
                         </tbody>
                     </table>
@@ -162,15 +174,37 @@ require_once ('./controller/controllercurso.php');
 
 
         </script>
-    <script>
-$(document).ready(function(){
-  $("#busca").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#tabela_curso tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
-</script>
+
+        
+        
+                <script type="text/javascript">
+    
+                document.getElementById("txtBusca").addEventListener("keyup",function(){
+                    var busca = document.getElementById("txtBusca").value.toLowerCase();
+                    
+                    for(var i = 0; i < tbody.childNodes.length;i++){
+                        var achou = false;
+                        var tr = tbody.childNodes[i];
+                        var td = tr.childNodes;
+                        
+                        for(var j = 0; j <td.length;j++){
+                            var value = td[j].childNodes[0].nodeValue.toLowerCase();
+                            if(value.indexOf(busca)>=0){
+                                achou = true;
+                            }
+                        }
+                        if(achou){
+                                tr.style.display = "table-row";
+                        }else{
+                            tr.style.display = "none";
+                        }
+                }
+                    
+                });
+
+
+        </script>
+        
+        
     </body>
 </html>

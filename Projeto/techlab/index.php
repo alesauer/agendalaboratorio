@@ -17,11 +17,11 @@ require_once ('./adminphp/verificausuario.php');
         <div class="ls-login-parent">
             <div class="ls-login-inner">
                 <div class="ls-login-container">
-<?php
-if ((isset($_SESSION['msg']))) {
-    require_once('./mensagem.php');
-}
-?>
+                <?php
+                if ((isset($_SESSION['msg']))) {
+                    require_once('mensagem.php');
+                }
+                ?>
                     <div class="ls-login-box">
                         <h1 class="ls-login-logo"><img title="Logo login" src="img/logo-login.jpeg"></h1>
                         <form role="form" method="POST" class="ls-form ls-login-form" action="controller/login.php">

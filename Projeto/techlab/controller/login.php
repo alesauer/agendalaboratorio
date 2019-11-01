@@ -26,8 +26,6 @@ $nome = $select->fetch_assoc();
 // mysqli_num_rows retorna numero de linhas encontradas pelo select
 $retorno = mysqli_num_rows($select);
 
-
-
 //Caso sejá 1 ele digitou senha e usuário corretos
 if($retorno == 1){
     logaUsuario($email);
